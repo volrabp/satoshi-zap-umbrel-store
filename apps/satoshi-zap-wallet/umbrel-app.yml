@@ -4,8 +4,21 @@ category: bitcoin
 name: Satoshi Zap
 version: "1.0.0"
 tagline: Smart Bitcoin Lightning wallet and exchange gateway
-description: >-
-  Satoshi Zap is an advanced, highly optimized self-hosted Bitcoin Lightning wallet and dashboard with AI assistant.
+description: >
+  Satoshi Zap is an advanced, highly optimized self-hosted Bitcoin Lightning wallet and dashboard.
+  It offers full integration with your LNbits instance and direct connections to leading global and European exchanges (Coinmate, Bybit, Strike, Coinbase, Binance) for high-speed fiat-to-bitcoin purchases and submarine swaps (via Boltz.exchange).
+  
+  The application features a built-in smart AI assistant (Google Gemini) that automatically classifies your transactions, cleans up merchant names, and answers questions about your spending in CZK, EUR, or USD. Runs natively as a Progressive Web App (PWA).
 developer: Petr Volrab
 website: https://github.com/volrabp/SatoshiZap
+dependencies: []
 repo: https://github.com/volrabp/SatoshiZap
+support: https://github.com/volrabp/SatoshiZap
+port: 3020
+gallery: []
+path: ""
+defaultPassword: ""
+releaseNotes: >
+  Initial release of Satoshi Zap for Umbrel.
+submitter: Petr Volrab
+submission: https://github.com/volrabp/SatoshiZap

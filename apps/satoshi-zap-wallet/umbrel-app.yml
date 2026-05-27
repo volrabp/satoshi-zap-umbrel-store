@@ -1,6 +1,6 @@
-manifestVersion: 1
+manifestVersion: 1.1
 id: satoshi-zap-wallet
-category: finance
+category: bitcoin
 name: Satoshi Zap
 version: "1.0.0"
 tagline: Smart Bitcoin Lightning wallet and exchange gateway

@@ -1,0 +1,32 @@
+id: satoshi-zap
+name: Satoshi Zap
+version: "1.0.0"
+tagline: Inteligentní Bitcoin Lightning peněženka a brána k burzám
+tagline_en: Smart self-hosted Bitcoin Lightning wallet and exchange gateway
+description: >
+  Satoshi Zap je pokročilá, vysoce optimalizovaná self-hosted Bitcoin Lightning peněženka.
+  Nabízí plnou integraci s vaší LNbits instancí a přímé napojení na přední evropské a světové burzy 
+  (Coinmate, Bybit, Strike, Coinbase, Binance) pro bleskurychlé nákupy a submarine swapy (přes Boltz.exchange).
+  
+  Aplikace je vybavena vestavěným inteligentním AI asistentem (Google Gemini), který dokáže automaticky
+  klasifikovat vaše transakce, čistit názvy obchodníků a odpovídat na dotazy ohledně vašich výdajů.
+  Podporuje plnou abstrakci fiat měn (CZK, EUR, USD) a funguje jako progresivní webová aplikace (PWA).
+description_en: >
+  Satoshi Zap is an advanced, highly optimized self-hosted Bitcoin Lightning wallet.
+  It offers full integration with your LNbits instance and direct connections to leading global and European exchanges
+  (Coinmate, Bybit, Strike, Coinbase, Binance) for high-speed fiat-to-bitcoin purchases and submarine swaps (via Boltz.exchange).
+
+  The application features a built-in smart AI assistant (Google Gemini) that automatically
+  classifies your transactions, cleans up merchant names, and answers questions about your spending.
+  It supports full fiat currency abstraction (CZK, EUR, USD) and runs as a Progressive Web App (PWA).
+developer: Petr Volrab
+website: https://github.com/volrabp/SatoshiZap
+submitter: Petr Volrab
+submissionDate: 2026-05-27
+categories:
+  - finance
+dependencies:
+  - lnbits
+port: 3020
+path: ""
+gallery: []

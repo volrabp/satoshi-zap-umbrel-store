@@ -1,0 +1,19 @@
+version: "3.7"
+
+services:
+  app:
+    image: ghcr.io/volrabp/satoshi-zap:latest
+    restart: on-failure
+    environment:
+      - PORT=3020
+      - LNBITS_URL=http://umbrel-lnbits-web-1:5000
+      - LNBITS_BASE_URL=http://umbrel-lnbits-web-1:5000
+      - HTTPS_ENABLED=false
+    volumes:
+      - ${APP_DATA_DIR}/data:/app/data
+    networks:
+      - umbrel_main_network
+
+networks:
+  umbrel_main_network:
+    external: true

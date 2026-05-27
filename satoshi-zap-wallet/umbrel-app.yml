@@ -1,5 +1,6 @@
 manifestVersion: 1.1
 id: satoshi-zap-wallet
+icon: https://raw.githubusercontent.com/volrabp/satoshi-zap-umbrel-store/main/satoshi-zap-wallet/icon.svg
 category: bitcoin
 name: Satoshi Zap
 version: "1.0.0"

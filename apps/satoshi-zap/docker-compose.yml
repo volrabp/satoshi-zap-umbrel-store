@@ -1,7 +1,16 @@
 version: "3.7"
 
 services:
-  app:
+  app_proxy:
+    image: getumbrel/app-proxy:v0.1.1
+    environment:
+      APP_HOST: web
+      APP_PORT: 3020
+    restart: on-failure
+    networks:
+      - default
+
+  web:
     image: ghcr.io/volrabp/satoshi-zap:latest
     restart: on-failure
     environment:
@@ -12,6 +21,7 @@ services:
     volumes:
       - ${APP_DATA_DIR}/data:/app/data
     networks:
+      - default
       - umbrel_main_network
 
 networks:

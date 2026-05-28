@@ -1,11 +1,6 @@
 version: "3.7"
 
 services:
-  app_proxy:
-    environment:
-      APP_HOST: satoshi-zap-wallet_web_1
-      APP_PORT: 3020
-
   web:
     image: ghcr.io/volrabp/satoshi-zap:1.0.9
     restart: on-failure
@@ -14,5 +9,7 @@ services:
       - LNBITS_URL=http://umbrel-lnbits-web-1:5000
       - LNBITS_BASE_URL=http://umbrel-lnbits-web-1:5000
       - HTTPS_ENABLED=false
+    ports:
+      - "3020:3020"
     volumes:
       - ${APP_DATA_DIR}/data:/app/data

@@ -7,7 +7,7 @@ services:
       APP_PORT: 3020
 
   web:
-    image: ghcr.io/volrabp/satoshi-zap:1.0.4
+    image: ghcr.io/volrabp/satoshi-zap:1.0.5
     restart: on-failure
     environment:
       - PORT=3020

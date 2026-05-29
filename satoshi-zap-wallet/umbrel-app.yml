@@ -3,7 +3,7 @@ id: satoshi-zap-wallet
 icon: https://raw.githubusercontent.com/volrabp/satoshi-zap-umbrel-store/main/satoshi-zap-wallet/icon.svg
 category: bitcoin
 name: Satoshi Zap
-version: "1.2.8"
+version: "1.2.9"
 tagline: Smart Bitcoin Lightning wallet and exchange gateway
 description: >
   Satoshi Zap is an advanced, highly optimized self-hosted Bitcoin Lightning wallet and dashboard.
@@ -20,6 +20,6 @@ gallery: []
 path: "admin"
 defaultPassword: ""
 releaseNotes: >
-  Update to v1.2.8. Deprecated native HTTPS to allow standard HTTP for reverse proxies and Tailscale setups. Added multi-language English/Czech localizations, dynamic Category Language selection lock panel, dedicated interactive PWA guides, dynamic LNbits wallet friendly name extraction, auto-hiding of unconfigured NWC limits, own-wallet Lightning withdrawals on Exchanges, and integrated Wavecard promotional box.
+  Update to v1.2.9. Hardened Dockerfile security to run strictly under a low-privilege non-root container user (node) for absolute sandboxing and compliance with Umbrel audit rules. Deprecated native HTTPS to allow standard HTTP for reverse proxies and Tailscale setups. Added multi-language English/Czech localizations, dynamic Category Language selection lock panel, dedicated interactive PWA guides, dynamic LNbits wallet friendly name extraction, auto-hiding of unconfigured NWC limits, own-wallet Lightning withdrawals on Exchanges, and integrated Wavecard promotional box.
 submitter: Petr Volrab
 submission: https://github.com/volrabp/SatoshiZap

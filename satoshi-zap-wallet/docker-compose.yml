@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   web:
-    image: ghcr.io/volrabp/satoshi-zap:1.2.8
+    image: ghcr.io/volrabp/satoshi-zap:1.2.9
     restart: on-failure
     environment:
       - PORT=3020

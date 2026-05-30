@@ -3,7 +3,7 @@ id: satoshi-zap-wallet
 icon: https://raw.githubusercontent.com/volrabp/satoshi-zap-umbrel-store/main/satoshi-zap-wallet/icon.svg
 category: bitcoin
 name: Satoshi Zap
-version: "1.2.25"
+version: "1.2.26"
 tagline: Smart Bitcoin Lightning wallet and exchange gateway
 description: >
   Satoshi Zap is an advanced, highly optimized self-hosted Bitcoin Lightning wallet and dashboard.
@@ -22,7 +22,7 @@ gallery: []
 path: "admin"
 defaultPassword: ""
 releaseNotes: >
-  Update to v1.2.25. The Exchanges (Buy) navigation button is now kept visible in PRO mode even if no exchanges are currently configured. Added a premium glassmorphic warning card when navigating to unconfigured Exchanges page, with a direct button link to configure them in the Admin section.
-  Verze 1.2.25. Tlačítko burz (Koupit) zůstává v PRO režimu vždy viditelné. Při přechodu na nenastavenou stránku burz se zobrazí prémiová skleněná varovná karta s přímým odkazem do administrace pro zapnutí a konfiguraci alespoň jedné burzy.
+  Update to v1.2.26. Inside the Preset Addresses configuration tab, sections are now displayed in the exact same order as the main Exchanges dashboard, and only show for exchanges that are currently activated/enabled.
+  Verze 1.2.26. V sekci Nastavení adres (Preset Addresses) se nyní jednotlivé bloky řadí ve stejném pořadí jako na hlavní stránce burz a zobrazují se pouze ty burzy, které jsou v nastavení reálně zapnuté.
 submitter: Petr Volrab
 submission: https://github.com/volrabp/SatoshiZap

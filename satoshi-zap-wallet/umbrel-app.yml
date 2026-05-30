@@ -3,7 +3,7 @@ id: satoshi-zap-wallet
 icon: https://raw.githubusercontent.com/volrabp/satoshi-zap-umbrel-store/main/satoshi-zap-wallet/icon.svg
 category: bitcoin
 name: Satoshi Zap
-version: "1.2.31"
+version: "1.2.32"
 tagline: Smart Bitcoin Lightning wallet and exchange gateway
 description: >
   Satoshi Zap is an advanced, highly optimized self-hosted Bitcoin Lightning wallet and dashboard.
@@ -22,7 +22,7 @@ gallery: []
 path: "admin"
 defaultPassword: ""
 releaseNotes: >
-  Update to v1.2.31. Added offline-first fast loading for the main wallet dashboard (balance, transaction history, rates, and NWC limits render instantly from browser localStorage cache and smoothly sync in the background) and resolved exchanges flashing before warning dialog.
-  Verze 1.2.31. Přidáno offline-first rychlé načítání hlavní nástěnky (zůstatek, transakce, kurzy a NWC limity se zobrazují ihned z localStorage mezipaměti a plynule se aktualizují na pozadí) a opraveno problikávání dashboardu burz před zobrazením varovného dialogu.
+  Update to v1.2.32. Enhanced the offline-first wallet dashboard cache with fully reactive, real-time local storage synchronization. All incoming WebSocket payments, manual refreshes, and merchant category updates now sync instantly with the localStorage cache, guaranteeing 100% data consistency upon app restarts.
+  Verze 1.2.32. Vylepšeno offline-first načítání hlavní nástěnky (zůstatek, transakce, kurzy) o plně reaktivní ukládání změn v reálném čase. Veškeré příchozí platby přes WebSocket, úpravy kategorií, či manuální synchronizace se nyní okamžitě promítají do localStorage mezipaměti, což zaručuje 100% aktuální stav při každém restartu aplikace.
 submitter: Petr Volrab
 submission: https://github.com/volrabp/SatoshiZap

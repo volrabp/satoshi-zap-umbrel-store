@@ -3,7 +3,7 @@ id: satoshi-zap-wallet
 icon: https://raw.githubusercontent.com/volrabp/satoshi-zap-umbrel-store/main/satoshi-zap-wallet/icon.svg
 category: bitcoin
 name: Satoshi Zap
-version: "1.2.34"
+version: "1.2.35"
 tagline: Smart Bitcoin Lightning wallet and exchange gateway
 description: >
   Satoshi Zap is an advanced, highly optimized self-hosted Bitcoin Lightning wallet and dashboard.
@@ -22,7 +22,7 @@ gallery: []
 path: "admin"
 defaultPassword: ""
 releaseNotes: >
-  Update to v1.2.34. Fixed unexpected redirects to the Admin panel during back navigation from the mobile wallet view on desktops. The wallet view preference (activated by `?mode=wallet`) is now stored in `sessionStorage` and persists throughout the browser tab session. Additionally, buttons in the Admin panel to open the wallet now correctly open in a new tab.
-  Verze 1.2.34. Opraveno přesměrování do administrace při zpětné navigaci z mobilní peněženky na desktopu. Preference zobrazení peněženky (aktivovaná parametrem `?mode=wallet`) se nyní ukládá do `sessionStorage` a zůstává aktivní po celou dobu práce v dané záložce. Tlačítka pro spuštění peněženky z administrace navíc nově otevírají peněženku v samostatné nové záložce.
+  Update to v1.2.35. Fixed startup flashing where the homepage/exchanges dashboard briefly flickered under the login PIN screen on cold boot. The lock status and biometric security settings are now cached locally, allowing the security state to resolve synchronously on launch.
+  Verze 1.2.35. Opraveno probliknutí úvodní stránky/dashboardu směnáren pod přihlašovacím PIN zámkem při studeném startu. Stav zabezpečení a přítomnost biometrického přihlášení jsou nově lokálně kešovány, takže se stav zámku vyhodnotí okamžitě a synchronně při načtení.
 submitter: Petr Volrab
 submission: https://github.com/volrabp/SatoshiZap

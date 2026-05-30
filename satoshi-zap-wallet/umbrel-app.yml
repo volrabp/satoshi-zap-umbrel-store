@@ -3,7 +3,7 @@ id: satoshi-zap-wallet
 icon: https://raw.githubusercontent.com/volrabp/satoshi-zap-umbrel-store/main/satoshi-zap-wallet/icon.svg
 category: bitcoin
 name: Satoshi Zap
-version: "1.2.11"
+version: "1.2.12"
 tagline: Smart Bitcoin Lightning wallet and exchange gateway
 description: >
   Satoshi Zap is an advanced, highly optimized self-hosted Bitcoin Lightning wallet and dashboard.
@@ -21,6 +21,6 @@ gallery: []
 path: "admin"
 defaultPassword: ""
 releaseNotes: >
-  Update to v1.2.11. Resolved internal wallet transfers categorization bug by preventing outgoing transaction legs from inheriting the 'Příjem' (Income) category and automatically mapping them to 'Převody' (Transfers) or 'Obecné' (General). Highly optimized and compactified the main Exchange Dashboard card view to save vertical screen space and prevent vertical scrolling cutoffs on smaller tablet or dashboard screens.
+  Update to v1.2.12. Implemented dynamic biometric hardware authentication (Face ID / Touch ID / Passkey) with local PBKDF2-secured Master PIN fallback lock screen. Restyled the lock screen brand title to match the homepage's premium theme. Added a dedicated Settings sub-page (/settings) featuring centralized Czech/English localization, a brand-new three-state theme controller (Light / Dark / System), and inline biometrics registration. Unified circular header button aesthetics globally across all screens. Added dynamic auto-hiding of the AI Assistant icon if Gemini credentials are not configured, and resolved mode switcher visual reactivity in the Admin panel.
 submitter: Petr Volrab
 submission: https://github.com/volrabp/SatoshiZap

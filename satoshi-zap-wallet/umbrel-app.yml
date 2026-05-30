@@ -3,7 +3,7 @@ id: satoshi-zap-wallet
 icon: https://raw.githubusercontent.com/volrabp/satoshi-zap-umbrel-store/main/satoshi-zap-wallet/icon.svg
 category: bitcoin
 name: Satoshi Zap
-version: "1.2.27"
+version: "1.2.28"
 tagline: Smart Bitcoin Lightning wallet and exchange gateway
 description: >
   Satoshi Zap is an advanced, highly optimized self-hosted Bitcoin Lightning wallet and dashboard.
@@ -22,7 +22,7 @@ gallery: []
 path: "admin"
 defaultPassword: ""
 releaseNotes: >
-  Update to v1.2.27. Bound the unconfigured Exchanges warning card state to the satoshi-zap-exchanges-enabled localStorage key, ensuring instantaneous page rendering without waiting for server responses.
-  Verze 1.2.27. Zobrazení varování o chybějící burze je nyní provázáno na stejný mechanismus s ukládáním do localstorage jako hlavní tlačítko, díky čemuž je stav okamžitě dostupný při načtení stránky.
+  Update to v1.2.28. Changed the default localStorage fallback for exchanges enabled status to false, preventing momentary rendering of the exchanges dashboard on cold boots and cleared cache states.
+  Verze 1.2.28. Výchozí stav (pokud není klíč v localstorage dosud zapsaný) byl změněn na false (burzy neaktivní), což zcela předchází zobrazení plného formuláře burz při prvním nebo studeném startu aplikace před dokončením API dotazů.
 submitter: Petr Volrab
 submission: https://github.com/volrabp/SatoshiZap

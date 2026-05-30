@@ -3,7 +3,7 @@ id: satoshi-zap-wallet
 icon: https://raw.githubusercontent.com/volrabp/satoshi-zap-umbrel-store/main/satoshi-zap-wallet/icon.svg
 category: bitcoin
 name: Satoshi Zap
-version: "1.2.33"
+version: "1.2.34"
 tagline: Smart Bitcoin Lightning wallet and exchange gateway
 description: >
   Satoshi Zap is an advanced, highly optimized self-hosted Bitcoin Lightning wallet and dashboard.
@@ -22,7 +22,7 @@ gallery: []
 path: "admin"
 defaultPassword: ""
 releaseNotes: >
-  Update to v1.2.33. Fixed dashboard flashing underneath the PIN/security lock screen on startup. When the app is locked, the main dashboard and exchanges views are now set to `display: none`, preventing any data leaks or quick layout flashes before the verification screen displays.
-  Verze 1.2.33. Opraveno problikávání uživatelského rozhraní při startu zamčené aplikace. Pokud je aplikace zamčena na PIN/otisk, hlavní dashboard i stránka burz jsou skryty v DOM (`display: none`), takže nedochází k žádnému probliknutí dat pod obrazovkou zámku.
+  Update to v1.2.34. Fixed unexpected redirects to the Admin panel during back navigation from the mobile wallet view on desktops. The wallet view preference (activated by `?mode=wallet`) is now stored in `sessionStorage` and persists throughout the browser tab session. Additionally, buttons in the Admin panel to open the wallet now correctly open in a new tab.
+  Verze 1.2.34. Opraveno přesměrování do administrace při zpětné navigaci z mobilní peněženky na desktopu. Preference zobrazení peněženky (aktivovaná parametrem `?mode=wallet`) se nyní ukládá do `sessionStorage` a zůstává aktivní po celou dobu práce v dané záložce. Tlačítka pro spuštění peněženky z administrace navíc nově otevírají peněženku v samostatné nové záložce.
 submitter: Petr Volrab
 submission: https://github.com/volrabp/SatoshiZap

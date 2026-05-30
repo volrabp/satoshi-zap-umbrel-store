@@ -3,7 +3,7 @@ id: satoshi-zap-wallet
 icon: https://raw.githubusercontent.com/volrabp/satoshi-zap-umbrel-store/main/satoshi-zap-wallet/icon.svg
 category: bitcoin
 name: Satoshi Zap
-version: "1.2.15"
+version: "1.2.16"
 tagline: Smart Bitcoin Lightning wallet and exchange gateway
 description: >
   Satoshi Zap is an advanced, highly optimized self-hosted Bitcoin Lightning wallet and dashboard.
@@ -21,6 +21,6 @@ gallery: []
 path: "admin"
 defaultPassword: ""
 releaseNotes: >
-  Update to v1.2.15. Implemented self-healing container initialization. The container starts as root for a fraction of a second to automatically adjust host volume permissions (EACCES) on `/app/data` to the `node` user, and then safely drops privileges via `su-exec` to execute the Node.js server strictly as the neprivileged `node` user. This fully complies with Umbrel non-root requirements while permanently fixing the resetting security PIN and settings issue.
+  Update to v1.2.16. Centralized and redesigned the Settings PWA layout. Wrapped the entire settings component in an elegant centered outer card on desktop that flattens beautifully on mobile viewports. Centralized the padding and borders of inner settings cards to match the unified LNbits theme.
 submitter: Petr Volrab
 submission: https://github.com/volrabp/SatoshiZap

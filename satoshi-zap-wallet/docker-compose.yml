@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   web:
-    image: ghcr.io/volrabp/satoshi-zap:1.2.35
+    image: ghcr.io/volrabp/satoshi-zap:1.2.36
     restart: on-failure
     environment:
       - PORT=3020
@@ -10,6 +10,8 @@ services:
       - LNBITS_BASE_URL=http://172.17.0.1:3007
       - HTTPS_ENABLED=false
       - UMBREL=true
+      - LICENSE_SERVER_URL=https://satoshi-zap-license-worker.volrabp.workers.dev
+      - MOCK_LICENSE=false
     ports:
       - "3020:3020"
     volumes:

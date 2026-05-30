@@ -3,7 +3,7 @@ id: satoshi-zap-wallet
 icon: https://raw.githubusercontent.com/volrabp/satoshi-zap-umbrel-store/main/satoshi-zap-wallet/icon.svg
 category: bitcoin
 name: Satoshi Zap
-version: "1.2.26"
+version: "1.2.27"
 tagline: Smart Bitcoin Lightning wallet and exchange gateway
 description: >
   Satoshi Zap is an advanced, highly optimized self-hosted Bitcoin Lightning wallet and dashboard.
@@ -22,7 +22,7 @@ gallery: []
 path: "admin"
 defaultPassword: ""
 releaseNotes: >
-  Update to v1.2.26. Inside the Preset Addresses configuration tab, sections are now displayed in the exact same order as the main Exchanges dashboard, and only show for exchanges that are currently activated/enabled.
-  Verze 1.2.26. V sekci Nastavení adres (Preset Addresses) se nyní jednotlivé bloky řadí ve stejném pořadí jako na hlavní stránce burz a zobrazují se pouze ty burzy, které jsou v nastavení reálně zapnuté.
+  Update to v1.2.27. Bound the unconfigured Exchanges warning card state to the satoshi-zap-exchanges-enabled localStorage key, ensuring instantaneous page rendering without waiting for server responses.
+  Verze 1.2.27. Zobrazení varování o chybějící burze je nyní provázáno na stejný mechanismus s ukládáním do localstorage jako hlavní tlačítko, díky čemuž je stav okamžitě dostupný při načtení stránky.
 submitter: Petr Volrab
 submission: https://github.com/volrabp/SatoshiZap

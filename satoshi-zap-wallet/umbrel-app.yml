@@ -3,7 +3,7 @@ id: satoshi-zap-wallet
 icon: https://raw.githubusercontent.com/volrabp/satoshi-zap-umbrel-store/main/satoshi-zap-wallet/icon.svg
 category: bitcoin
 name: Satoshi Zap
-version: "1.2.36"
+version: "1.2.37"
 tagline: Smart Bitcoin Lightning wallet and exchange gateway
 description: >
   Satoshi Zap is an advanced, highly optimized self-hosted Bitcoin Lightning wallet and dashboard.
@@ -21,7 +21,7 @@ gallery: []
 path: "admin"
 defaultPassword: ""
 releaseNotes: >
-  Update to v1.2.36. Integrated the production serverless licensing gateway deployed globally on Cloudflare Workers (https://satoshi-zap-license-worker.volrabp.workers.dev). Replaced the developer public verification key with the newly generated Ed25519 pair to secure PRO licensing handshakes and verify cryptographic license keys locally offline.
-  Verze 1.2.36. Integrován produkční serverless licenční server běžící globálně na Cloudflare Workers (https://satoshi-zap-license-worker.volrabp.workers.dev). Vývojový veřejný klíč byl nahrazen nově vygenerovaným produkčním párem Ed25519 pro zabezpečenou aktivaci a offline verifikaci licencí PRO verze.
+  Update to v1.2.37. Implemented high-performance, client-side offline-first QR code generation using the local "qrcode" npm package for both license purchase and donation overlays. This completely resolves QR code loading failures caused by external URL query parameters being truncated on long BOLT11 Lightning invoices.
+  Verze 1.2.37. Implementováno rychlé a spolehlivé lokální generování QR kódů přímo na klientském zařízení (offline-first) pomocí balíčku "qrcode" pro licenční i darovací obrazovky. Toto plně řeší nefunkční zobrazování QR kódů, které bylo způsobeno překročením limitu délky URL u velmi dlouhých BOLT11 Lightning faktur na externích službách.
 submitter: Petr Volrab
 submission: https://github.com/volrabp/SatoshiZap

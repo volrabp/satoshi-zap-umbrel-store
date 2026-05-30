@@ -3,7 +3,7 @@ id: satoshi-zap-wallet
 icon: https://raw.githubusercontent.com/volrabp/satoshi-zap-umbrel-store/main/satoshi-zap-wallet/icon.svg
 category: bitcoin
 name: Satoshi Zap
-version: "1.2.23"
+version: "1.2.24"
 tagline: Smart Bitcoin Lightning wallet and exchange gateway
 description: >
   Satoshi Zap is an advanced, highly optimized self-hosted Bitcoin Lightning wallet and dashboard.
@@ -21,7 +21,7 @@ gallery: []
 path: "admin"
 defaultPassword: ""
 releaseNotes: >
-  Update to v1.2.23. Added 'AI Reclassify' button inside categories admin tab to allow retroactive bulk re-evaluation of historical payments.
-  Verze 1.2.23. Přidáno tlačítko 'AI Reklasifikace' do záložky kategorií v administraci pro zpětné hromadné zařazení starších plateb.
+  Update to v1.2.24. Deactivated all integrations (Binance, Coinmate, Bybit, Strike, Coinbase) by default in baseConfig on first runs.
+  Verze 1.2.24. Všechny burzovní integrace jsou nyní v základní konfiguraci při prvním spuštění a odemčení PRO výchoze deaktivované.
 submitter: Petr Volrab
 submission: https://github.com/volrabp/SatoshiZap

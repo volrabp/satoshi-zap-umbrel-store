@@ -3,7 +3,7 @@ id: satoshi-zap-wallet
 icon: https://raw.githubusercontent.com/volrabp/satoshi-zap-umbrel-store/main/satoshi-zap-wallet/icon.svg
 category: bitcoin
 name: Satoshi Zap
-version: "1.2.37"
+version: "1.2.38"
 tagline: Smart Bitcoin Lightning wallet and exchange gateway
 description: >
   Satoshi Zap is an advanced, highly optimized self-hosted Bitcoin Lightning wallet and dashboard.
@@ -21,7 +21,7 @@ gallery: []
 path: "admin"
 defaultPassword: ""
 releaseNotes: >
-  Update to v1.2.37. Implemented high-performance, client-side offline-first QR code generation using the local "qrcode" npm package for both license purchase and donation overlays. This completely resolves QR code loading failures caused by external URL query parameters being truncated on long BOLT11 Lightning invoices.
-  Verze 1.2.37. Implementováno rychlé a spolehlivé lokální generování QR kódů přímo na klientském zařízení (offline-first) pomocí balíčku "qrcode" pro licenční i darovací obrazovky. Toto plně řeší nefunkční zobrazování QR kódů, které bylo způsobeno překročením limitu délky URL u velmi dlouhých BOLT11 Lightning faktur na externích službách.
+  Update to v1.2.38. Completely removed the confusing "1-click direct payment" button from the license purchase section in Admin settings. The purchase flow has been simplified into a single, prominent primary button that cleanly opens the checkout modal, giving the user full control to scan the QR code or click to pay manually.
+  Verze 1.2.38. Kompletně odstraněno matoucí "1-click" tlačítko pro okamžitou platbu z administrace licencí. Celý proces nákupu byl zjednodušen do jednoho výrazného zeleného tlačítka, které čistě otevírá dialogové okno, čímž dává uživateli plnou kontrolu nad naskenováním QR kódu nebo ručním kliknutím na platbu z peněženky.
 submitter: Petr Volrab
 submission: https://github.com/volrabp/SatoshiZap

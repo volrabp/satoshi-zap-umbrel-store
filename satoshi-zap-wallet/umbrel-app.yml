@@ -3,7 +3,7 @@ id: satoshi-zap-wallet
 icon: https://raw.githubusercontent.com/volrabp/satoshi-zap-umbrel-store/main/satoshi-zap-wallet/icon.svg
 category: bitcoin
 name: Satoshi Zap
-version: "1.2.16"
+version: "1.2.17"
 tagline: Smart Bitcoin Lightning wallet and exchange gateway
 description: >
   Satoshi Zap is an advanced, highly optimized self-hosted Bitcoin Lightning wallet and dashboard.
@@ -21,6 +21,6 @@ gallery: []
 path: "admin"
 defaultPassword: ""
 releaseNotes: >
-  Update to v1.2.16. Centralized and redesigned the Settings PWA layout. Wrapped the entire settings component in an elegant centered outer card on desktop that flattens beautifully on mobile viewports. Centralized the padding and borders of inner settings cards to match the unified LNbits theme.
+  Update to v1.2.17. Fixed favicon.ico branding. Replaced the default Angular red logo with the custom orange-gradient lightning bolt Satoshi Zap logo across all desktop browser tabs.
 submitter: Petr Volrab
 submission: https://github.com/volrabp/SatoshiZap

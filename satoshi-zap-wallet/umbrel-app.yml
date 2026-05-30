@@ -3,7 +3,7 @@ id: satoshi-zap-wallet
 icon: https://raw.githubusercontent.com/volrabp/satoshi-zap-umbrel-store/main/satoshi-zap-wallet/icon.svg
 category: bitcoin
 name: Satoshi Zap
-version: "1.2.20"
+version: "1.2.22"
 tagline: Smart Bitcoin Lightning wallet and exchange gateway
 description: >
   Satoshi Zap is an advanced, highly optimized self-hosted Bitcoin Lightning wallet and dashboard.
@@ -21,7 +21,7 @@ gallery: []
 path: "admin"
 defaultPassword: ""
 releaseNotes: >
-  Update to v1.2.20. Removed all Bytomat references from user-facing Admin UI texts and updated default fallback domains.
-  Verze 1.2.20. Odstraněny všechny zmínky o Bytomatu z uživatelských textů administrace a aktualizovány výchozí domény.
+  Update to v1.2.22. English-first language switch priority, default fallback domain to gateway IP 172.17.0.1, and warning banner when category initialization is missing.
+  Verze 1.2.22. Angličtina jako výchozí volba, defaultní fallback doména na bránu 172.17.0.1 a varovný banner při chybějící inicializaci kategorií.
 submitter: Petr Volrab
 submission: https://github.com/volrabp/SatoshiZap

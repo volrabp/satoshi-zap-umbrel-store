@@ -3,7 +3,7 @@ id: satoshi-zap-wallet
 icon: https://raw.githubusercontent.com/volrabp/satoshi-zap-umbrel-store/main/satoshi-zap-wallet/icon.svg
 category: bitcoin
 name: Satoshi Zap
-version: "1.2.12"
+version: "1.2.13"
 tagline: Smart Bitcoin Lightning wallet and exchange gateway
 description: >
   Satoshi Zap is an advanced, highly optimized self-hosted Bitcoin Lightning wallet and dashboard.
@@ -21,6 +21,6 @@ gallery: []
 path: "admin"
 defaultPassword: ""
 releaseNotes: >
-  Update to v1.2.12. Implemented dynamic biometric hardware authentication (Face ID / Touch ID / Passkey) with local PBKDF2-secured Master PIN fallback lock screen. Restyled the lock screen brand title to match the homepage's premium theme. Added a dedicated Settings sub-page (/settings) featuring centralized Czech/English localization, a brand-new three-state theme controller (Light / Dark / System), and inline biometrics registration. Unified circular header button aesthetics globally across all screens. Added dynamic auto-hiding of the AI Assistant icon if Gemini credentials are not configured, and resolved mode switcher visual reactivity in the Admin panel.
+  Update to v1.2.13. Fixed persistent storage paths on Umbrel to guarantee security PIN, limit setups, and database persistence across container restarts. Implemented seamless backend-to-LNbits communication utilizing the internal Docker host bridge (http://172.17.0.1:3007) for highly reliable Nostr WebSocket and API connectivity.
 submitter: Petr Volrab
 submission: https://github.com/volrabp/SatoshiZap

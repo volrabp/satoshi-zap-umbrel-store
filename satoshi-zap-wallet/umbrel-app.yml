@@ -3,7 +3,7 @@ id: satoshi-zap-wallet
 icon: https://raw.githubusercontent.com/volrabp/satoshi-zap-umbrel-store/main/satoshi-zap-wallet/icon.svg
 category: bitcoin
 name: Satoshi Zap
-version: "1.2.32"
+version: "1.2.33"
 tagline: Smart Bitcoin Lightning wallet and exchange gateway
 description: >
   Satoshi Zap is an advanced, highly optimized self-hosted Bitcoin Lightning wallet and dashboard.
@@ -22,7 +22,7 @@ gallery: []
 path: "admin"
 defaultPassword: ""
 releaseNotes: >
-  Update to v1.2.32. Enhanced the offline-first wallet dashboard cache with fully reactive, real-time local storage synchronization. All incoming WebSocket payments, manual refreshes, and merchant category updates now sync instantly with the localStorage cache, guaranteeing 100% data consistency upon app restarts.
-  Verze 1.2.32. Vylepšeno offline-first načítání hlavní nástěnky (zůstatek, transakce, kurzy) o plně reaktivní ukládání změn v reálném čase. Veškeré příchozí platby přes WebSocket, úpravy kategorií, či manuální synchronizace se nyní okamžitě promítají do localStorage mezipaměti, což zaručuje 100% aktuální stav při každém restartu aplikace.
+  Update to v1.2.33. Fixed dashboard flashing underneath the PIN/security lock screen on startup. When the app is locked, the main dashboard and exchanges views are now set to `display: none`, preventing any data leaks or quick layout flashes before the verification screen displays.
+  Verze 1.2.33. Opraveno problikávání uživatelského rozhraní při startu zamčené aplikace. Pokud je aplikace zamčena na PIN/otisk, hlavní dashboard i stránka burz jsou skryty v DOM (`display: none`), takže nedochází k žádnému probliknutí dat pod obrazovkou zámku.
 submitter: Petr Volrab
 submission: https://github.com/volrabp/SatoshiZap

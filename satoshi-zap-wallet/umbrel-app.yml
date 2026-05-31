@@ -3,7 +3,7 @@ id: satoshi-zap-wallet
 icon: https://raw.githubusercontent.com/volrabp/satoshi-zap-umbrel-store/main/satoshi-zap-wallet/icon.svg
 category: bitcoin
 name: Satoshi Zap
-version: "1.2.39"
+version: "1.2.40"
 tagline: Smart Bitcoin Lightning wallet and exchange gateway
 description: >
   Satoshi Zap is an advanced, highly optimized self-hosted Bitcoin Lightning wallet and dashboard.
@@ -21,7 +21,7 @@ gallery: []
 path: "admin"
 defaultPassword: ""
 releaseNotes: >
-  Update to v1.2.39. Fixed transaction label and category mismatch for internal self-transfers by routing LNbits label updates strictly through checking_id instead of payment_hash.
-  Verze 1.2.39. Opraveno chybné přiřazování štítků a kategorií u vnitřních převodů sdílejících stejný payment_hash díky směrování zápisů štítků v LNbits podle checking_id.
+  Update to v1.2.40. Fixed transaction categories and virtual labels logic, fully restored Czech system categories.
+  Verze 1.2.40. Oprava chybné lokalizace systémových kategorií a štítků na vnitřních převodech, plné obnovení českých systémových kategorií.
 submitter: Petr Volrab
 submission: https://github.com/volrabp/SatoshiZap

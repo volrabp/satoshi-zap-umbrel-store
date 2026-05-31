@@ -3,7 +3,7 @@ id: satoshi-zap-wallet
 icon: https://raw.githubusercontent.com/volrabp/satoshi-zap-umbrel-store/main/satoshi-zap-wallet/icon.svg
 category: bitcoin
 name: Satoshi Zap
-version: "1.2.43"
+version: "1.2.44"
 tagline: Smart Bitcoin Lightning wallet and exchange gateway
 description: >
   Satoshi Zap is an advanced, highly optimized self-hosted Bitcoin Lightning wallet and dashboard.
@@ -21,7 +21,7 @@ gallery: []
 path: "admin"
 defaultPassword: ""
 releaseNotes: >
-  Update to v1.2.43. Migrated the Satoshi Zap licensing and donation server to the brand-new, customized Cloudflare Workers subdomain cybob.workers.dev, ensuring stable and reliable license activation.
-  Verze 1.2.43. Migrace licenčního a darovacího serveru Satoshi Zap na zcela novou, upravenou subdoménu cybob.workers.dev na Cloudflare pro stabilní a spolehlivou aktivaci licencí a darů.
+  Update to v1.2.44. Fully aligned container configurations (docker-compose.yml) with official Umbrel App Store packaging standards, including resource memory limitations (mem_limit) and standardized expose port configurations to prevent conflicts.
+  Verze 1.2.44. Plné přizpůsobení kontejnerové konfigurace (docker-compose.yml) oficiálním standardům Umbrel App Storu, včetně zavedení paměťových limitů (mem_limit) a standardizovaného vystavení portů (expose) pro zamezení případných kolizí.
 submitter: Petr Volrab
 submission: https://github.com/volrabp/SatoshiZap

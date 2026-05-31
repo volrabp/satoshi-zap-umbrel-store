@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   web:
-    image: ghcr.io/volrabp/satoshi-zap:1.2.43
+    image: ghcr.io/volrabp/satoshi-zap:1.2.44
     restart: on-failure
     mem_limit: 256m
     environment:

@@ -10,17 +10,17 @@ description: >
   It offers full integration with your LNbits instance and direct connections to leading global and European exchanges (Coinmate, Bybit, Strike, Coinbase, Binance) for high-speed fiat-to-bitcoin purchases and submarine swaps (via Boltz.exchange).
   
   The application features a built-in smart AI assistant (Google Gemini) that automatically classifies your transactions, cleans up merchant names, and answers questions about your spending in CZK, EUR, or USD. Runs natively as a Progressive Web App (PWA).
-developer: Petr Volrab
-website: https://github.com/volrabp/SatoshiZap
+developer: Satoshi Zap
+website: https://github.com/volrabp/satoshi-zap-umbrel-store
 dependencies:
   - lnbits
-repo: https://github.com/volrabp/SatoshiZap
-support: https://github.com/volrabp/SatoshiZap
+repo: https://github.com/volrabp/satoshi-zap-umbrel-store
+support: https://github.com/volrabp/satoshi-zap-umbrel-store
 gallery: []
 path: "admin"
 defaultPassword: ""
 releaseNotes: >
   Update to v1.2.50. Enlarged Admin label in header, fixed license page layout grids on large monitors, and stabilized PRO mode startup against settings loading race conditions.
   Verze 1.2.50. Zvětšen nápis Admin v záhlaví, opraven vzhled licenčních sekcí na velkých monitorech a vyřešeno nechtěné přepínání PRO režimu na BASIC při startu administrace.
-submitter: Petr Volrab
-submission: https://github.com/volrabp/SatoshiZap
+submitter: Satoshi Zap
+submission: https://github.com/volrabp/satoshi-zap-umbrel-store

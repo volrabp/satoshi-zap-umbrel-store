@@ -3,7 +3,7 @@ id: satoshi-zap-wallet
 icon: https://raw.githubusercontent.com/volrabp/satoshi-zap-umbrel-store/main/satoshi-zap-wallet/icon.svg
 category: bitcoin
 name: Satoshi Zap
-version: "1.2.45"
+version: "1.2.46"
 tagline: Smart Bitcoin Lightning wallet and exchange gateway
 description: >
   Satoshi Zap is an advanced, highly optimized self-hosted Bitcoin Lightning wallet and dashboard.
@@ -21,7 +21,7 @@ gallery: []
 path: "admin"
 defaultPassword: ""
 releaseNotes: >
-  Update to v1.2.45. Restored direct port mapping configuration (3020:3020) and increased memory limit to 512MB to ensure rock-solid stability during local sideloading and testing.
-  Verze 1.2.45. Obnoveno přímé mapování portů (3020:3020) a navýšen limit paměti na 512 MB pro zajištění stoprocentní stability a snadného lokálního testování.
+  Update to v1.2.46. Official App Store compliant version. Switched direct port mapping to internal expose, enabled dynamic subpath proxy auto-resolution in the frontend, and kept stable 512MB memory limit to ensure smooth reverse proxy routing.
+  Verze 1.2.46. Verze plně kompatibilní s oficiálním App Storem. Přímé mapování portů nahrazeno interním expose, implementováno dynamické automatické rozpoznání proxy subpath ve frontendu a zachován stabilní limit paměti 512 MB pro hladký běh.
 submitter: Petr Volrab
 submission: https://github.com/volrabp/SatoshiZap

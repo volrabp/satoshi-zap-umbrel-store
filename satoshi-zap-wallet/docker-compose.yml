@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   web:
-    image: ghcr.io/volrabp/satoshi-zap:1.2.45
+    image: ghcr.io/volrabp/satoshi-zap:1.2.46
     restart: on-failure
     mem_limit: 512m
     environment:
@@ -13,7 +13,7 @@ services:
       - UMBREL=true
       - LICENSE_SERVER_URL=https://satoshi-zap-license-worker.cybob.workers.dev
       - MOCK_LICENSE=false
-    ports:
-      - "3020:3020"
+    expose:
+      - "3020"
     volumes:
       - ${APP_DATA_DIR}/data:/app/data

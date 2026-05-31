@@ -16,7 +16,6 @@ dependencies:
   - lnbits
 repo: https://github.com/volrabp/SatoshiZap
 support: https://github.com/volrabp/SatoshiZap
-port: 3020
 gallery: []
 path: "admin"
 defaultPassword: ""

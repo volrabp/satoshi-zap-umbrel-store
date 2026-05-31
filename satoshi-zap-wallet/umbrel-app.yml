@@ -3,7 +3,7 @@ id: satoshi-zap-wallet
 icon: https://raw.githubusercontent.com/volrabp/satoshi-zap-umbrel-store/main/satoshi-zap-wallet/icon.svg
 category: bitcoin
 name: Satoshi Zap
-version: "1.2.38"
+version: "1.2.39"
 tagline: Smart Bitcoin Lightning wallet and exchange gateway
 description: >
   Satoshi Zap is an advanced, highly optimized self-hosted Bitcoin Lightning wallet and dashboard.
@@ -21,7 +21,7 @@ gallery: []
 path: "admin"
 defaultPassword: ""
 releaseNotes: >
-  Update to v1.2.38. Completely removed the confusing "1-click direct payment" button from the license purchase section in Admin settings. The purchase flow has been simplified into a single, prominent primary button that cleanly opens the checkout modal, giving the user full control to scan the QR code or click to pay manually.
-  Verze 1.2.38. Kompletně odstraněno matoucí "1-click" tlačítko pro okamžitou platbu z administrace licencí. Celý proces nákupu byl zjednodušen do jednoho výrazného zeleného tlačítka, které čistě otevírá dialogové okno, čímž dává uživateli plnou kontrolu nad naskenováním QR kódu nebo ručním kliknutím na platbu z peněženky.
+  Update to v1.2.39. Fixed transaction label and category mismatch for internal self-transfers by routing LNbits label updates strictly through checking_id instead of payment_hash.
+  Verze 1.2.39. Opraveno chybné přiřazování štítků a kategorií u vnitřních převodů sdílejících stejný payment_hash díky směrování zápisů štítků v LNbits podle checking_id.
 submitter: Petr Volrab
 submission: https://github.com/volrabp/SatoshiZap

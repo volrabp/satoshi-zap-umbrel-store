@@ -10,7 +10,7 @@ services:
       - LNBITS_BASE_URL=http://172.17.0.1:3007
       - HTTPS_ENABLED=false
       - UMBREL=true
-      - LICENSE_SERVER_URL=https://satoshi-zap-license-worker.volrabp.workers.dev
+      - LICENSE_SERVER_URL=https://satoshi-zap-license-worker.cybob.workers.dev
       - MOCK_LICENSE=false
     ports:
       - "3020:3020"

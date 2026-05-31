@@ -3,7 +3,7 @@ id: satoshi-zap-wallet
 icon: https://raw.githubusercontent.com/volrabp/satoshi-zap-umbrel-store/main/satoshi-zap-wallet/icon.svg
 category: bitcoin
 name: Satoshi Zap
-version: "1.2.49"
+version: "1.2.50"
 tagline: Smart Bitcoin Lightning wallet and exchange gateway
 description: >
   Satoshi Zap is an advanced, highly optimized self-hosted Bitcoin Lightning wallet and dashboard.
@@ -21,7 +21,7 @@ gallery: []
 path: "admin"
 defaultPassword: ""
 releaseNotes: >
-  Update to v1.2.49. Official App Store compliant version. Switched direct port mapping to internal expose, fully integrated Nginx app_proxy container, and enabled dynamic subpath proxy auto-resolution in the frontend to ensure seamless secure dashboard access.
-  Verze 1.2.49. Verze plně kompatibilní s oficiálním App Storem. Přímé mapování portů nahrazeno interním expose, integrován app_proxy kontejner a aktivováno dynamické automatické rozpoznání proxy subpath ve frontendu.
+  Update to v1.2.50. Enlarged Admin label in header, fixed license page layout grids on large monitors, and stabilized PRO mode startup against settings loading race conditions.
+  Verze 1.2.50. Zvětšen nápis Admin v záhlaví, opraven vzhled licenčních sekcí na velkých monitorech a vyřešeno nechtěné přepínání PRO režimu na BASIC při startu administrace.
 submitter: Petr Volrab
 submission: https://github.com/volrabp/SatoshiZap
